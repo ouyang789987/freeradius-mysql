@@ -3,7 +3,7 @@ MAINTAINER Gino Jongenelen <g.jongenelen@pushto.space>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update
+RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get -y install software-properties-common \
     && add-apt-repository ppa:freeradius/stable-3.0 \
