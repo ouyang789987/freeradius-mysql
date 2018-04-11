@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM pushtospace/ubuntu
 MAINTAINER Gino Jongenelen <g.jongenelen@pushto.space>
 
 ENV DEBIAN_FRONTEND noninteractive
